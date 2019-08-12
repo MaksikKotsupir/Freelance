@@ -1,4 +1,4 @@
-h1,p{
+h1,h2,p{
     padding: 0;
     margin: 0;
 }
@@ -9,6 +9,7 @@ body{
 }
 #container{
     width:100%;
+    background:  #F2E0E0;
 }
 #l__head{
     width:100vw;
@@ -169,7 +170,6 @@ a:hover {
 .container__services{
     width:100vw;
     height: 100%;
-    background-color: #F2E0E0;
     height: 100%;
 }
 .cards__position{
@@ -180,9 +180,10 @@ a:hover {
 }
 .container__title{
    text-align: center;
-   padding-top: 50px;
+   margin-top: 50px;
    margin-bottom: 30px;
    color:#842A2A;
+   background:  #F2E0E0;
    font-size: 20px;
 }
 .container__cards{
@@ -258,4 +259,57 @@ a:hover {
     background: transparent;
     border:0;
     text-decoration: underline;
+}
+.about__us{
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about__us__bio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bio__photo{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top:15px;
+    background-color: gray;
+}
+.bio__title{
+    font-size: 25px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.bio__description{
+  margin-bottom: 50px;
+}
+.about__us__education:nth-child(odd){
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width:70%;
+    margin-bottom: 50px;
+}
+.about__us__education:nth-child(even){
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    height: 100%;
+    width:65%;
+    margin-bottom: 50px;
+}
+.education__text{
+    width:500px;
+    height:300px;
+    text-align: center;
+}
+.education__photo{
+   width:500px;
+   height: 300px;
+   background-color: gray;
 }
