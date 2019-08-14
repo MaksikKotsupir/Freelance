@@ -1,4 +1,4 @@
-h1,h2,p{
+h1,h2,h5,p{
     padding: 0;
     margin: 0;
 }
@@ -312,4 +312,94 @@ a:hover {
    width:500px;
    height: 300px;
    background-color: gray;
+}
+.feedback{
+    height: 800px;
+}
+.contact_us h2{
+    text-align: center;
+    padding-top: 20px;  
+    padding-bottom: 20px;  
+    color: #842A2A;
+    font-size: 27px;
+}
+.contact_us{
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgb(231,120,100), rgb(300, 240, 230));
+}
+.container__inputs{
+    width: 450px;
+    height: 600px;
+}
+.input__name, .input__surname, .input__number, .input__e-mail{
+    height: 50px;
+    width: 400px;
+    background: rgba(247,238,235,0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 7px 9px;
+    margin: 0 15px 15px;
+}
+label{
+    margin-top: -8px;
+    margin-bottom: 5px;
+    color: #842A2A;
+}
+#name, #surname, #number, #e-mail{
+    height: 50px;
+    border: 0;
+}
+.input__message{
+    height: 200px;
+    width: 400px;
+    background: rgba(247,238,235,0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 7px 9px;
+    margin: 15px;
+    
+}
+#message{
+    height: 170px;
+    width: 396px;
+    border: 0;
+    resize: none;
+    
+}
+.container__map{
+   
+    height: 600px;
+    width: 450px;
+}
+.container__map h2{
+  text-align: center;
+  padding-bottom:px;
+  margin-bottom: 20px;
+  background: rgba(247,238,235,0.5);
+  height: 50px;
+  width: 400px;
+  margin-left: 15px;
+  padding-left: 5px;
+}
+#map__number, #map__e-mail, #map__address{
+   width:400px;
+   height:50px;
+   margin-bottom: 10px;
+   padding-top:17px;
+   background: rgba(247,238,235,0.5);
+   margin-left: 15px;
+   padding-left: 5px;
+}
+.map{
+    height:405px;
+    width: 250px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.contact__container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
